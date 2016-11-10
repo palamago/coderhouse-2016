@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Coderhouse slideshow</title>
+
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+
+    <div class="container">
+      <div class="row">
+        <div class="col-md-9 col-md-offset-3">
+          <h1 class="text-center">Trabajos finales</h1>
+          <p class="lead text-center">Showroom de trabajos finales del curso de Diseñador Web Frontend Nivel 1 de <a target="_blank" href="https://www.coderhouse.com/">Coderhouse</a> dictado durante el segundo semestre de 2016 en Santiago de Chile por <a target="_blank" href="https://twitter.com/palamago">Pablo H. Paladino</a></p>
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="row">
+          <div class="col-md-12 text-right">
+              <div id="filters" class="button-group">
+                  <button class="btn btn-default" data-filter="*">TODOS</button>
+                  <button class="btn btn-default" data-filter=".bootstrap">Bootstrap</button>
+                  <button class="btn btn-default" data-filter=".flexbox">Flexbox</button>
+                  <button class="btn btn-default" data-filter=".sass">SASS</button>
+                  <button class="btn btn-default" data-filter=".css">CSS</button>
+              </div>
+          </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="row">
+        <div class="grid">
+          <div class="grid-sizer col-xs-12 col-sm-6 col-md-4 col-lg-3"></div>
+          
+          <div class="grid-item col-xs-12 col-sm-6 col-md-4 col-lg-3 flexbox css">
+            <div class="grid-item-content">
+              <a target="_blank" href="http://google.com" class="item-action">
+                <img src="http://blackrockdigital.github.io/startbootstrap-agency/img/portfolio/treehouse.png" class="img-responsive item-image ">
+                <div class="item-autor">
+                  <img class="item-autor-avatar img-circle" width="30" href="https://pbs.twimg.com/profile_images/719631645662449664/bwVp5d78.jpg">
+                </div>
+              </a>
+            </div>
+          </div>
+          
+          <div class="grid-item col-xs-12 col-sm-6 col-md-4 col-lg-3 sass bootstrap">
+            <div class="grid-item-content">
+              <a target="_blank" href="http://google.com" class="item-action">
+                <img src="http://blackrockdigital.github.io/startbootstrap-agency/img/portfolio/startup-framework.png" class="img-responsive item-image ">
+              </a>
+            </div>
+          </div>
+
+          <div class="grid-item col-xs-12 col-sm-6 col-md-4 col-lg-3 flexbox css">
+            <div class="grid-item-content">
+              <a target="_blank" href="http://google.com" class="item-action">
+                <img src="http://blackrockdigital.github.io/startbootstrap-agency/img/portfolio/treehouse.png" class="img-responsive item-image ">
+              </a>
+            </div>
+          </div>
+          
+          <div class="grid-item col-xs-12 col-sm-6 col-md-4 col-lg-3 sass bootstrap">
+            <div class="grid-item-content">
+              <a target="_blank" href="http://google.com" class="item-action">
+                <img src="http://blackrockdigital.github.io/startbootstrap-agency/img/portfolio/startup-framework.png" class="img-responsive item-image ">
+              </a>
+            </div>
+          </div>
+          
+          <div class="grid-item col-xs-12 col-sm-6 col-md-4 col-lg-3 bootstrap css">
+            <div class="grid-item-content">
+              <a target="_blank" href="http://google.com" class="item-action">
+                <img src="http://blackrockdigital.github.io/startbootstrap-agency/img/portfolio/treehouse.png" class="img-responsive item-image ">
+              </a>
+            </div>
+          </div>
+          
+          <div class="grid-item col-xs-12 col-sm-6 col-md-4 col-lg-3 sass css">
+            <div class="grid-item-content">
+              <a target="_blank" href="http://google.com" class="item-action">
+                <img src="http://blackrockdigital.github.io/startbootstrap-agency/img/portfolio/startup-framework.png" class="img-responsive item-image ">
+              </a>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+    <script src="https://unpkg.com/isotope-layout@3.0/dist/isotope.pkgd.min.js"></script>
+
+    <script type="text/javascript" src="js/main.js"></script>
+
+  </body>
+</html>

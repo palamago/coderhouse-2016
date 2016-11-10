@@ -1,0 +1,13 @@
+.grid-item {
+  background: #dedede;
+  padding: 0px; }
+  .grid-item .item-image {
+    width: 100%;
+    -webkit-filter: grayscale(100%);
+    /* Safari 6.0 - 9.0 */
+    filter: grayscale(100%); }
+    .grid-item .item-image:hover {
+      filter: none;
+      -webkit-filter: none; }
+
+/*# sourceMappingURL=style.css.map */
